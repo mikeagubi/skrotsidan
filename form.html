@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a href="index.html">Start</a>
+    <a href="produktsida.html">Produkter</a>
+    <a href="kontakt.html">Kontakt</a>
+    <a href="form.html">Kontakt-Formulär</a>
+    <a href="media.html">Media</a>
+    <h1>Kontakt formulär</h1>
+    <h3>För att vi ska kunna kontakta dig så ber vi dig att fylla i formuläret nedan..</h3>
+    <form style="background-color: beige; padding: 20px; margin: 30px;" action="https://primat.se/services/sendform.aspx?xid=register&xmail=mike.1985@live.se" method="post">
+        <label for="firstname">Förnamn</label>
+        <label for="secondname" style="margin-left: 180px;">Efternamn</label><br>
+        <input type="text" name="firstname" id="firstname">
+        <input type="text" name="secondname" id="secondname" style="margin-left: 60px;"><br><br>
+
+        <label for="adress">Adress</label>
+        <label for="stad" style="margin: 190px;">Stad</label>
+        <label for="postadress">Postadress</label><br>
+        <input type="text" name="adress" id="adress">
+        <input type="text" name="stad" id="stad" style="margin-left: 60px;">
+        <input type="number" name="postadress" id="postadress" style="margin-left: 50px;"><br><br>
+
+        <label for="email">Email-adress</label>
+        <label for="telefon" style="margin-left: 150px;">Telefonnummer</label><br>
+        <input type="email" name="email" id="email">
+        <input type="tel" name="telefon" id="telefon" style="margin-left: 60px;"><br><br>
+
+        <p style="font-weight: bold;">Välj form</p>
+
+        <label for="företag">Företag</label>
+        <label for="privat" style="margin-left: 20px;">Privat</label><br>
+        <input type="radio" name="form" id="företag" value="Företag">
+        <input type="radio" name="form" id="privat" value="Privat" style="margin-left: 50px;"><br><br>
+
+        <p style="font-weight: bold;">Antal anställda i företaget</p>
+
+        <label for="mini">1-100</label>
+        <label for="midi" style="margin-left: 20px;">101-1000</label>
+        <label for="max" style="margin-left: 20px;">Mer än 1000</label><br>
+        <input type="radio" name="personer" id="mini" value="mini">
+        <input type="radio" name="personer" id="midi" value="midi" style="margin-left: 60px;">
+        <input type="radio" name="personer" id="max" value="max" style="margin-left: 60px;"><br><br>
+
+        <label for="fritext" style="font-weight: bold;">Skriv dina förväntningar</label><br>
+        <textarea name="fritext" id="fritext" rows="10" cols="50"></textarea><br><br>
+
+        <label for="nyhetsbrev"> Ta emot nyhetsbrev</label>
+        <input type="checkbox" name="nyhhetsbrev" id="nyhetsbrev" value="Ja"><br><br>
+        
+        <label for="telefonkontakt">Kontakta mig via telefon</label>
+        <input type="checkbox" name="telefonkontakt" id="telefonkontakt" value="Ja"><br><br>
+
+        <input type="submit" value="Skicka">
+
+
+
+    </form>
+
+
+
+
+    
+</body>
+</html>
