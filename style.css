@@ -115,4 +115,9 @@ td{
     text-shadow: 6px 6px 6px black;
 }
 
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
